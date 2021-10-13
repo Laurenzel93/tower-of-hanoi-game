@@ -9,7 +9,7 @@ const disc3 = document.createElement('div');
 // give discs id's
 // give discs css rules
 // make towers clickable
-// when click happens, do game logic
+// when click happens, do game logic:
 // if there is nothing selected, select top disc on this tower
 // if there is something selected, check to see if move is valid
 // if valid move, move disc
