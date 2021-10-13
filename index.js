@@ -8,6 +8,13 @@ const disc3 = document.createElement('div');
 // make discs
 // give discs id's
 // give discs css rules
+// make towers clickable
+// when click happens, do game logic
+// if there is nothing selected, select top disc on this tower
+// if there is something selected, check to see if move is valid
+// if valid move, move disc
+// after a valid move, check to see if the player wins
+
 
 disc1.setAttribute('id', 'disc1');
 disc2.setAttribute('id', 'disc2');
@@ -16,6 +23,10 @@ disc3.setAttribute('id', 'disc3');
 disc1.setAttribute('class', 'discs');
 disc2.setAttribute('class', 'discs');
 disc3.setAttribute('class', 'discs');
+
+disc1.dataset.size = 1;
+disc2.dataset.size = 2;
+disc3.dataset.size = 3;
 
 tower1.append(disc1);
 tower1.append(disc2);

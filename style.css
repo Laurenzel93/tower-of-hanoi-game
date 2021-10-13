@@ -3,6 +3,7 @@
     height: 250px;
     width: 30px;
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
 }
 
@@ -20,6 +21,4 @@ body {
 .discs {
     flex-direction: row; 
     margin-top: 5px;
-    
-
-}
+    }
