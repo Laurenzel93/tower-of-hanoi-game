@@ -9,17 +9,24 @@
   <title>Tower of Hanoi</title>
 </head>
 <body>
-<div id="game-container">
-  <div id="tower1" class="towers d-flex justify-content-center" ondrop="drop(event)" ondragover="allowDrop(event)"
-    ondragstart="drag(event)">
+  <div id='description'>
+    <h1>TOWER OF HANOI CLONE</h1>
+    <h2>Welcome to my Tower of Hanoi clone! The object of the game is to drag and drop all the discs over to Tower 3.
+      However, you cannot place a larger disk onto a smaller disk. Good luck, and have fun!</h2>
   </div>
-  <div id="tower2" class="towers d-flex justify-content-center" ondrop="drop(event)" ondragover="allowDrop(event)"
-    ondragstart="drag(event)">
-  </div>
-  <div id="tower3" class="towers d-flex justify-content-center" ondrop="drop(event)" ondragover="allowDrop(event)"
-    ondragstart="drag(event)">
-  </div>
-</div>
+
+  <div id="game-container">
+    <div id="tower1" class="towers d-flex justify-content-center" ondrop="drop(event)" ondragover="allowDrop(event)"
+      ondragstart="drag(event)">
+    </div>
+    <div id="tower2" class="towers d-flex justify-content-center" ondrop="drop(event)" ondragover="allowDrop(event)"
+      ondragstart="drag(event)">
+    </div>
+    <div id="tower3" class="towers d-flex justify-content-center" ondrop="drop(event)" ondragover="allowDrop(event)"
+      ondragstart="drag(event)">
+    </div>
+    <h1 id='moveCounter'> Total Moves: </h1>
+    </div>
  
 </body>
  
